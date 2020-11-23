@@ -2,31 +2,31 @@
 ![Logo Astican](img/asticanlogo.png)
 
 ## Índice
-[1. Introducción](idIntroduccion)
+[1. Introducción](#idIntroduccion)
 
-[2. Diagramas](idDiagramas)
+[2. Diagramas](#idDiagramas)
 
-[3. Requisitos de Usuario](idReqUsu)
+[3. Requisitos de Usuario](#idReqUsu)
 
-[4. Casos de Usos](idCasosDeUso)
+[4. Casos de Usos](#idCasosDeUso)
 
-[5. Descripción del funcionamiento del sistema y especificaciones técnicas de la aplicación del servidor, móvil y web](idDescripcion)
+[5. Descripción del funcionamiento del sistema y especificaciones técnicas de la aplicación del servidor, móvil y web](#idDescripcion)
 
-[6. Interfaces](idInterfaces)
+[6. Interfaces](#idInterfaces)
 
-[7. Manuales](idManuales)
+[7. Manuales](#idManuales)
 
-[8. Pila Tecnológica](idPilaTecnologica)
+[8. Pila Tecnológica](#idPilaTecnologica)
 
-[9. Comparación de tecnologías](idComparacionTecnologias)
+[9. Comparación de tecnologías](#idComparacionTecnologias)
 
-[10. Repositorios](idRepositorios)
+[10. Repositorios](#idRepositorios)
 
-[11. Planificación](idPlanificación)
+[11. Planificación](#idPlanificación)
 
-[12. Conclusiones](idConclusiones)
+[12. Conclusiones](#idConclusiones)
 
-[13. Enlaces  y referencias](idEnlaceReferencias)
+[13. Enlaces  y referencias](#idEnlaceReferencias)
 
 ## 1. Introducción<a name="idIntroduccion"></a>
 
