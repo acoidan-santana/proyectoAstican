@@ -19,6 +19,8 @@
 * [7. Manuales](#idManuales)
 
 * [8. Pila Tecnológica](#idPilaTecnologica)
+  * [8.1. Microsoft Power Apps](#idPowerApps)
+  * [8.2. Microsoft Excel](#idExcel)
 
 * [9. Comparación de tecnologías](#idComparacionTecnologias)
 
@@ -98,10 +100,10 @@ Al otro tipo de usuario corresponden los trabajadores de Astican que tienen que 
 
 ## 8. Pila Tecnológica<a name="idPilaTecnologica"></a>
 
-### 8.1 Microsoft Power Apps:
+### 8.1 Microsoft Power Apps:<a name="idPowerApps"></a>
 Es un software que requiere de licencia que permite explotar todo su potencial, aún así, se puede usar de forma gratuita ofreciendo una gran cantidad de sus recursos para el desarrollo sencillo de aplicaciones.
 En Power Apps se puede desarrollar una aplicación desde 0 o a partir de un modelo de datos teniendo compatibilidad con infinidad de motores de bases de datos. Este software tiene un gran potencial, es capaz de crear una aplicación con su CRUD completo a partir de una tabla de una base de datos, una vez tengas esa aplicación puedes modificar la tabla y añadir más campos a tu aplicación. Ofrece un sin fin de funciones que te permiten trabajar con los datos de una manera simple e intuitiva.
-### 8.2 Microsoft Excel:
+### 8.2 Microsoft Excel:<a name="idExcel"></a>
 
 ## 9. Comparación de tecnologías<a name="idComparacionTecnologias"></a>
 
