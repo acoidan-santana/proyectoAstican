@@ -2,31 +2,33 @@
 ![Logo Astican](img/asticanlogo.png)
 
 ## Índice
-[1. Introducción](#idIntroduccion)
+* [1. Introducción](#idIntroduccion)
 
-[2. Diagramas](#idDiagramas)
+* [2. Diagramas](#idDiagramas)
 
-[3. Requisitos de Usuario](#idReqUsu)
+* [3. Requisitos de Usuario](#idReqUsu)
 
-[4. Casos de Uso](#idCasosDeUso)
+* [4. Casos de Uso](#idCasosDeUso)
 
-[5. Descripción del funcionamiento del sistema y especificaciones técnicas de la aplicación del servidor, móvil y web](#idDescripcion)
+* [5. Descripción del funcionamiento del sistema y especificaciones técnicas de la aplicación del servidor, móvil y web](#idDescripcion)
 
-[6. Interfaces](#idInterfaces)
+* [6. Interfaces](#idInterfaces)
+  * [6.1. Diseño Inicial](#idDiseño)
+  * [6.2 Usabilidad](#idUsabilidad)
 
-[7. Manuales](#idManuales)
+* [7. Manuales](#idManuales)
 
-[8. Pila Tecnológica](#idPilaTecnologica)
+* [8. Pila Tecnológica](#idPilaTecnologica)
 
-[9. Comparación de tecnologías](#idComparacionTecnologias)
+* [9. Comparación de tecnologías](#idComparacionTecnologias)
 
-[10. Repositorios](#idRepositorios)
+* [10. Repositorios](#idRepositorios)
 
-[11. Planificación](#idPlanificacion)
+* [11. Planificación](#idPlanificacion)
 
-[12. Conclusiones](#idConclusiones)
+* [12. Conclusiones](#idConclusiones)
 
-[13. Enlaces  y referencias](#idEnlaceReferencias)
+* [13. Enlaces  y referencias](#idEnlaceReferencias)
 
 ## 1. Introducción<a name="idIntroduccion"></a>
 
@@ -50,7 +52,7 @@ Los requisitos de usuario para hacer uso de esta aplicación son tener un sistem
 
 ## 6. Interfaces<a name="idInterfaces"></a>
 
-### 6.1 Diseño Inicial:
+### 6.1 Diseño Inicial:<a name="idDiseño"></a>
 
 Al iniciar la aplicación aparecerá una página de Login debido a que hay dos tipos de usuario que usarán la aplicación.
 
@@ -75,6 +77,8 @@ En la ventana de resumen también hay un botón que al clickar sobre él verific
 ![Resumen](img/capturasPrototipado/resumen.PNG)
 ![Editar](img/capturasPrototipado/editar.PNG)
 
+Como se puede ver en todas las interfaces que no son el login, en la parte superior izquierda se encuentra una flecha blanca, esta sirve para volver a la interfaz anterior.
+
 Volviendo al menú del gestor, al pulsar el botón "ver procedimientos" se abrirá la siguiente ventana. Esta permite ver el estado en el que se encuentra cada proceso de forma individual, se pueden ampliar los detalles pulsando el botón "ver detalles" de cada procedimiento, lo que abrirá la ventana detalles que a su vez permite la edición, al clickar en el lápiz, de dicho procedimiento abriendo de nuevo la ventana de edición.
 
 En la parte inferior derecha se encunetra un botón con una lupa, este botón permitirá al gestor buscar los procedimientos por fecha, tipo de barco etc.
@@ -87,6 +91,8 @@ Al otro tipo de usuario corresponden los trabajadores de Astican que tienen que 
 
 ![Visualizador Usuario](img/capturasPrototipado/visualizadorUsuario.PNG)
 ![Detalles Usuario](img/capturasPrototipado/detallesUsuario.PNG)
+
+### Usabilidad:<a name="idUsabilidad"></a>
 
 ## 7. Manuales<a name="idManuales"></a>
 
