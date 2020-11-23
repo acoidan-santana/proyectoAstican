@@ -52,7 +52,7 @@ Los requisitos de usuario para hacer uso de esta aplicación son tener un sistem
 
 ## 6. Interfaces<a name="idInterfaces"></a>
 
-### 6.1 Diseño Inicial:<a name="idDiseño"></a>
+### 6.1. Diseño Inicial:<a name="idDiseño"></a>
 
 Al iniciar la aplicación aparecerá una página de Login debido a que hay dos tipos de usuario que usarán la aplicación.
 
@@ -92,7 +92,7 @@ Al otro tipo de usuario corresponden los trabajadores de Astican que tienen que 
 ![Visualizador Usuario](img/capturasPrototipado/visualizadorUsuario.PNG)
 ![Detalles Usuario](img/capturasPrototipado/detallesUsuario.PNG)
 
-### Usabilidad:<a name="idUsabilidad"></a>
+### 6.2. Usabilidad:<a name="idUsabilidad"></a>
 
 ## 7. Manuales<a name="idManuales"></a>
 
