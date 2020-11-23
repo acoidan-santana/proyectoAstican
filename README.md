@@ -43,6 +43,8 @@ Los requisitos de usuario para hacer uso de esta aplicación son tener un sistem
 
 ## 4. Casos de Uso<a name="idCasosDeUso"></a>
 
+![Casos de uso](img/casosdeuso.png)
+
 ## 5. Descripción<a name="idDescripcion"></a>
 
 ## 6. Interfaces<a name="idInterfaces"></a>
