@@ -22,7 +22,7 @@
 
 [10. Repositorios](#idRepositorios)
 
-[11. Planificación](#idPlanificación)
+[11. Planificación](#idPlanificacion)
 
 [12. Conclusiones](#idConclusiones)
 
@@ -45,7 +45,7 @@ Los requisitos de usuario para hacer uso de esta aplicación son tener un sistem
 
 ![Casos de uso](img/casosdeuso.PNG)
 
-## 5. Descripción<a name="idDescripcion"></a>
+## 5. Descripción del funcionamiento del sistema y especificaciones técnicas de la aplicación del servidor, móvil y web.<a name="idDescripcion"></a>
 
 ## 6. Interfaces<a name="idInterfaces"></a>
 
@@ -53,7 +53,12 @@ Los requisitos de usuario para hacer uso de esta aplicación son tener un sistem
 
 ## 8. Pila Tecnológica<a name="idPilaTecnologica"></a>
 
-## 9. Comparación de tecnologías<a name="idConparacionTecnologias"></a>
+#### 8.1 Microsoft Power Apps:
+Es un software que requiere de licencia que permite explotar todo su potencial, aún así, se puede usar de forma gratuita ofreciendo una gran cantidad de sus recursos para el desarrollo sencillo de aplicaciones.
+En Power Apps se puede desarrollar una aplicación desde 0 o a partir de un modelo de datos teniendo compatibilidad con infinidad de motores de bases de datos. Este software tiene un gran potencial, es capaz de crear una aplicación con su CRUD completo a partir de una tabla de una base de datos, una vez tengas esa aplicación puedes modificar la tabla y añadir más campos a tu aplicación. Ofrece un sin fin de funciones que te permiten trabajar con los datos de una manera simple e intuitiva.
+#### 8.2 Microsoft Excel:
+
+## 9. Comparación de tecnologías<a name="idComparacionTecnologias"></a>
 
 ## 10. Repositorios<a name="idRepositorios"></a>
 
