@@ -45,7 +45,7 @@ Los requisitos de usuario para hacer uso de esta aplicación son tener un sistem
 
 ![Casos de uso](img/casosdeuso.PNG)
 
-## 5. Descripción del funcionamiento del sistema y especificaciones técnicas de la aplicación del servidor, móvil y web.<a name="idDescripcion"></a>
+## 5. Descripción del funcionamiento del sistema y especificaciones técnicas de la aplicación<a name="idDescripcion"></a>
 
 ## 6. Interfaces<a name="idInterfaces"></a>
 
