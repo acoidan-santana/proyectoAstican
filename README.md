@@ -70,7 +70,7 @@ A continuación se muestran unos ejemplos de como se verían las ventanas para r
 
 Al final de cada paso se muestra un botón para ir al siguiente excepto en el último que desplegaría la ventana de resumen que se muestra a continuación, esta ventana permite ver los datos recogidos en la operación actual y editarlos en caso de que fuera necesario, para editarlos solo habría que darle al botón circular con un lápiz y se abriría la ventana de edición.
 
-En la ventana de resumen tamién hay un botón que al clickar sobre él verificará si todos los datos son correctos y finalizará la operación.
+En la ventana de resumen también hay un botón que al clickar sobre él verificará si todos los datos son correctos y finalizará la operación.
 
 ![Resumen](img/capturasPrototipado/resumen.PNG)
 ![Editar](img/capturasPrototipado/editar.PNG)
@@ -86,6 +86,7 @@ En la parte inferior derecha se encunetra un botón con una lupa, este botón pe
 Al otro tipo de usuario corresponden los trabajadores de Astican que tienen que ver con el proceso, es por esto que al iniciar sesión solo podrán acceder al visualizador de usuario. Este funciona como el del gestor pero no tienen la posibilidad de buscar operaciones anteriores dado que en principio no lo necesitan hacer. La otra diferencia es que al entrar en detalles no verán la opción de editar.
 
 ![Visualizador Usuario](img/capturasPrototipado/visualizadorUsuario.PNG)
+![Detalles Usuario](img/capturasPrototipado/detallesUsuario.PNG)
 
 ## 7. Manuales<a name="idManuales"></a>
 
