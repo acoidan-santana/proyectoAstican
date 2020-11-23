@@ -14,7 +14,7 @@
 
 * [6. Interfaces](#idInterfaces)
   * [6.1. Diseño Inicial](#idDiseño)
-  * [6.2 Usabilidad](#idUsabilidad)
+  * [6.2. Usabilidad](#idUsabilidad)
 
 * [7. Manuales](#idManuales)
 
