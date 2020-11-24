@@ -43,7 +43,9 @@ La aplicación también debe permitir que otros usuarios que están relacionados
 
 ## 3. Requisitos de usuario<a name="idReqUsu"></a>
 
-Los requisitos de usuario para hacer uso de esta aplicación son tener un sistema operativo Windows 10, tener licencia de Microsoft Excel u Office 365 y la propia aplicación.
+Esta aplicación será utilizada por dos tipos de usuario, el gestor y los usuarios autorizados de Astican.
+
+El gestor podrá hacer uso de todas las opciones de la aplicación
 
 ## 4. Casos de Uso<a name="idCasosDeUso"></a>
 
