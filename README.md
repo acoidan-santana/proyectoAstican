@@ -49,7 +49,9 @@ Los atributos "inicioPasos", "finPasos" y "observacionesPasos" de la tabla "Oper
 
 Esta aplicación será utilizada por dos tipos de usuario, el gestor y los usuarios autorizados de Astican.
 
-El gestor podrá hacer uso de todas las opciones de la aplicación
+El gestor podrá hacer uso de todas las opciones de la aplicación, esto implica la escritura y edición de datos además de poder consultar el estado de la operación actual y ver los datos de operaciones anteriores buscando por fecha, tipo de procediemiento, barcos etc.
+
+Los usuarios autorizados de Astican solo podrán ver el estado de la operación actual y sus detalles.
 
 ## 4. Casos de Uso<a name="idCasosDeUso"></a>
 
