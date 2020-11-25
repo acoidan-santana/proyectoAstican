@@ -41,7 +41,7 @@ La aplicación también debe permitir que otros usuarios que están relacionados
 
 ## 2. Diagramas<a name="idDiagramas"></a>
 
-![Entidad Relación](img/entidadRelacion.PNG)
+
 
 Los atributos "inicioPasos", "finPasos" y "observacionesPasos" de la tabla "Operación" hacen referencia a todos los pasos, es decir, cada paso tiene su inicio, su fin y su observación dentro de la base de datos.
 
