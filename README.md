@@ -79,39 +79,62 @@ De los requisitos de usuarios mencionados en el anterior apartado surge este dia
 
 ### 6.1. Diseño Inicial:<a name="idDiseño"></a>
 
-El primer tipo de usuario es el gestor, es la única persona que hará uso de todas las funcionalidades de la aplicación, tras iniciar sesión entrará a su menú. En el menú encontrará botones con los procedimientos que puede realizar y al final un botón que le muestra una previsualización de los procedimientos.
+Al entrar en la aplicación como usuario de Astican solo podrás ver los detalles de la última operación, al ser 4 operaciones diferentes, en la misma interfaz se juega con la visibilidad de la información para mostrar la adecuada, debido a la cantidad de datos que hay, se ha optado por hacer una ventana con scroll que muestre toda la información. Cabe destacar que esta interfaz es la misma que la de detalles que verá el gestor pero añadiendo un icono de un lápiz que le llevará a la ventana de edición como se verá más adelante. Hasta ahora la aplicación trabaja con 2 operaciones de las 4 por eso solo se muestran capturas de esas dos. La flecha superior izquierda sirve para salir en el caso de los usuarios de Astican y para volver atrás en el caso del gestor.
 
-El botón "varada", "traslado en seco", "botadura" y "traslado en mojado" llevan a las ventanas donde se muestran los pasos de cada procedimiento mientras que el botón "ver procedimientos" permite como ya ha sido mencionado, previsualizar los procedimientos.
+![Detalles Varada Usuario](img/capturasPrototipado/DetallesUsuarioVarada.PNG)
+![Detalles Traslado en seco Usuario](img/capturasPrototipado/DetallesUsuarioTSeco.PNG)
 
-![Menu Gestor](img/capturasPrototipado/menuGestor.PNG)
+En cuanto al gestor, es la única persona que hará uso de todas las funcionalidades de la aplicación, al iniciar la aplicación entrará a su menú. En el menú encontrará botones con los procedimientos que puede realizar y al final un botón que le muestra una previsualización de las operaciones.
 
-A continuación se muestran unos ejemplos de como se verían las ventanas para rellenar los datos de cada procedimiento, la ventana del primer paso se abriría al pulsar en el botón "varada", "traslado en seco", "botadura" y "traslado en mojado" de la interfaz mostrada anteriormente.
+El botón "varada", "traslado en seco", "botadura" y "traslado en mojado" llevan a las ventanas donde se muestran los pasos de cada operación mientras que el botón "ver procedimientos" permite como ya ha sido mencionado, previsualizar las operaciones que ya han sido realizadas.
 
-![Paso1](img/capturasPrototipado/paso1.PNG)
-![Paso2](img/capturasPrototipado/paso2.PNG)
-![Paso3](img/capturasPrototipado/paso3.PNG)
+El icono de engranaje sirve para abrir un menú desplegable que te permite cambiar el color de la aplicación al modo oscuro cuando le das al botón deslizante. Al volver a pinchar sobre el engranaje se cierra el desplegable
 
-Al final de cada paso se muestra un botón para ir al siguiente excepto en el último que desplegaría la ventana de resumen que se muestra a continuación, esta ventana permite ver los datos recogidos en la operación actual y editarlos en caso de que fuera necesario, para editarlos solo habría que darle al botón circular con un lápiz y se abriría la ventana de edición.
+![Menu Gestor](img/capturasPrototipado/MenuGestor.PNG)
+![Menu Gestor desplegable](img/capturasPrototipado/MenuGestorDesplegable.PNG)
+![Menu Gestor modo oscuro desplegable](img/capturasPrototipado/MenuGestorModoOscuroDesplegable.PNG)
+![Menu Gestor modo oscuro](img/capturasPrototipado/MenuGestorModoOscuro.PNG)
 
-En la ventana de resumen también hay un botón que al clickar sobre él verificará si todos los datos son correctos y finalizará la operación.
+Cada operación tiene sus pasos aunque algunos son comunes entre ellos, como ya se mencionó por ahora se trabaja con la varada y el traslado en seco por lo que comnezaré mostrando los pasos de la varada y cuando coincida con alguna interfaz del traslado en seco, dicha interfaz será mostrada en sus dos versiones.
 
-![Resumen](img/capturasPrototipado/resumen.PNG)
-![Editar](img/capturasPrototipado/editar.PNG)
+El primer paso es el de "Inicio", este es común en todas las operaciones aunque en la varada presenta alguna diferencia. Como se puede ver en la primera imagen, hay un cuadro para rellenar el nombre del barco y otro para el tipo mientras que la segunda te da la opción de escribir el nombre del barco y se mostrará automáticamente el tipo justo debajo. La primera imagen corresponde con el inicio de la varada y la segunda con la del traslado en seco. El botón de abajo te lleva al siguiente paso y la flecha de arriba a la izquierda para volver atrás.
 
-Como se puede ver en todas las interfaces que no son el login, en la parte superior izquierda se encuentra una flecha blanca, esta sirve para volver a la interfaz anterior.
+![Inicio Varada](img/capturasPrototipado/InicioVarada.PNG)
+![Inicio Traslado en seco](img/capturasPrototipado/InicioTSeco.PNG)
 
-Volviendo al menú del gestor, al pulsar el botón "ver procedimientos" se abrirá la siguiente ventana. Esta permite ver el estado en el que se encuentra cada proceso de forma individual, se pueden ampliar los detalles pulsando el botón "ver detalles" de cada procedimiento, lo que abrirá la ventana detalles que a su vez permite la edición, al clickar en el lápiz, de dicho procedimiento abriendo de nuevo la ventana de edición.
+El siguiente paso en la varada es "Cama de varada" aquí se encuentran dos checkbox que recogen la fecha y hora del momento en el que son pulsados además de mostrar un mensaje que te indica la fecha y hora guardada, se encuentra también un desplegable que te dejará elegir entre varias opciones para seleccionar la tipología. El botón de abajo te lleva al siguiente paso.
 
-En la parte inferior derecha se encunetra un botón con una lupa, este botón permitirá al gestor buscar los procedimientos por fecha, tipo de barco etc.
+![Cama Varada](img/capturasPrototipado/CamaVarada.PNG)
 
-![Visualizador Gestor](img/capturasPrototipado/visualizadorGestor.PNG)
-![Detalles Gestor](img/capturasPrototipado/detallesGestor.PNG)
-![Editar](img/capturasPrototipado/editar.PNG)
+El siguiente paso es "Planificacion", es el tercer paso de la varada y el segundo del traslado en seco. La primera imagen corresponde con la apariencia de la pantalla cuando es una varada, como se puede ver tiene un desplegable que da varias opciones, un checkbox que recoge la fecha y hora en la que es pulsado, dos cuadros de texto para escribir la hora y dos para escribir los minutos y por último un cuadro de texto para escribir el número de remolcadores. En cuanto a la segunda imagen, que corresponde con el traslado en seco hay dos cuadros de texto normales, dos checkbox que recogen la fecha y hora actual cuando on pulsados y un cuadro de texto para la hora y otro para los minutos. El botón de abajo sirve para cambiar de fase en ambos casos.
 
-Al otro tipo de usuario corresponden los trabajadores de Astican que tienen que ver con el proceso, es por esto que al iniciar sesión solo podrán acceder al visualizador de usuario. Este funciona como el del gestor pero no tienen la posibilidad de buscar operaciones anteriores dado que en principio no lo necesitan hacer. La otra diferencia es que al entrar en detalles no verán la opción de editar.
+![Planificacion Varada](img/capturasPrototipado/PlanificacionVarada.PNG)
+![Planificacion Traslado en seco](img/capturasPrototipado/PlanificacionTSecoPNG)
 
-![Visualizador Usuario](img/capturasPrototipado/visualizadorUsuario.PNG)
-![Detalles Usuario](img/capturasPrototipado/detallesUsuario.PNG)
+La siguiente interfaz corresponde con la fase "Buque" donde podemos observar cuatro cuadros de texto, un desplegable y un checkbox que sirve para lo mismo que los anteriores. El botón de abajo sirve para avanzar al siguiente paso.
+
+![Buque](img/capturasPrototipado/Buque.PNG)
+
+A continuación está la interfaz de la fase "Submarinistas", esta tiene un cuadro de texto y dos checkbox para la fecha y hora además del botón que tienen todas las interfaces de los pasos para cambiar de fase.
+
+![Submarinistas](img/capturasPrototipado/Submarinistas.PNG)
+
+El siguiente paso es el denominado "Syncrolift" aquí hay tres checkbox que toman la fecha y hora actual cuando son pulsados. El botón de abajo navega hacia el siguiente paso.
+
+![Syncrolift](img/capturasPrototipado/Syncrolift.PNG)
+
+Esta interfaz coincide con el tercer paso del traslado en seco, que se llama "primer movimiento" y tiene tres checkbox para recoger la fecha y hora además del botón de navegación al siguiente paso.
+
+![Primer Movimiento](img/capturasPrototipado/PrimerMovimiento.PNG)
+
+La siguiente interfaz coincide con el cuarto paso del traslado en seco y con el séptimo de la varada, su nombre es "Remolque en seco" y en el caso de la varada presenta algunas diferencias con respecto a las otras tres operaciones. En la varada hay un desplegable que permite elegir una opción en carro de tiro y otro desplegable que deja elegir varias opciones mientras que en la interfaz del resto hay un checkbox para la fecha y hora, dos desplegables de selección individual y un desplegable de selección múltiple. El botón de abajo sirve para navegar a la última ventana en ambos casos. La primera imagen coincide con la fase de la varada y la segunda con la del traslado en seco.
+
+![Remolque en seco varada](img/capturasPrototipado/RemolqueEnSecoVarada.PNG)
+![Remolque en seco traslado en seco](img/capturasPrototipado/RemolqueEnSecoTSeco.PNG)
+
+Esta interfaz es la última de las interfaces para los pasos y coincide en todas las operaciones. Hay tres checkbox que recogen la fecha y hora actual al ser presionados, el mensaje que sale en medio de los campos a rellenar se debe a que aprovechando las posibilidades de Power Apps he usado un solo formulario para las cuatro operaciones por lo que hasta que no se defina una tabla para rellenar los datos, aparecerá ese mensaje.
+
+![Servicios Basicos](img/capturasPrototipado/ServiciosBasicos.PNG)
 
 ### 6.2. Usabilidad:<a name="idUsabilidad"></a>
 
