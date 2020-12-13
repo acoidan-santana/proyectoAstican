@@ -142,8 +142,41 @@ Microsoft Excel es una hoja de cálculo mundialmente conocida que también permi
 
 ## 10. Repositorios<a name="idRepositorios"></a>
 
+Este es el repositorio de GitHub en el que se encuentra la documentación:
+```
+https://github.com/acoidan-santana/proyectoAstican.git
+```
+
 ## 11. Planificación<a name="idPlanificacion"></a>
+
+Para comenzar con el proyecto lo primero que hizo fue verme varios vídeos sobre el funcionamiento de Power Apps dado que es una tecnología nueva y totalmente distinta a lo que estamos acostumbrados. Tras un par de días comencé a hacer una aplicación de prueba para investigar más a fondo el funcionamiento e intentar entender para que servía cada cosa y que funciones tenían. Comencé a trabajar con Google Sheets como origen de datos improvisado mientras descubríamos si podíamos trabajar en Excel, creé un total de 3 aplicaciones usando Google Sheets como origen de datos hasta que entendimos el funcionamiento de Power Apps con Excel online.
+
+A medida que iba desarrollando las aplicaciones con Google Sheets empecé a estudiar un poco mejor la base de datos, creé un pequeño diagrama de entidad relación que poco a poco fui modificando y creé el diagrama de casos de uso.
+
+Sobre el 13 de noviembre, con las ideas más claras sobre como usar Power Apps y como iba a ser la base de datos, empecé con el prototipado, fui haciendo el diseño poco a poco mientras seguía viendo algún vídeo sobre Power Apps, cuando acabé el prototipo empecé a trabajar un poco en la documentación. Con el prototipo, el diagrama de entidad relación y con una aplicación de prueba con Excel como origen de datos, me puse a desarrollar la aplicación que en un principio sería la final.
+
+El día 1 de diciembre, Astican nos envía el borrador de lo que quieren en su aplicación y gracias a eso pude desarrollar todo el diagrama de entidad relación. El día 3, con el diagrama nuevo hecho, empiezo la aplicación final.
+
+El día 12 de diciembre con la aplicación casi acabada, me puse a hacer el modelo relacional.
+
+El día 13 de diciembre seguí ultimando la aplicación y a modificar y completar la documentación.
 
 ## 12. Conclusiones<a name="idConclusiones"></a>
 
 ## 13. Enlaces y referencias<a name="idEnlaceReferencias"></a>
+Para entender el funcionamiento de Power Apps y como crear aplicaciones con este software me he valido principalmente de 3 fuentes:
+
+_Canal de Youtube "Martín Gesualdo"_
+```
+https://www.youtube.com/channel/UCTc2Y5e4JYuVs7gc26pPynA/videos
+```
+
+_Canal de Youtube "Shane Young"_
+```
+https://www.youtube.com/c/ShaneYoungCloud/videos
+```
+
+_Documentación de Microsoft_
+```
+https://docs.microsoft.com/es-es/powerapps/powerapps-overview
+```
