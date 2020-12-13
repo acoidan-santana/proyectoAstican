@@ -79,10 +79,6 @@ De los requisitos de usuarios mencionados en el anterior apartado surge este dia
 
 ### 6.1. Diseño Inicial:<a name="idDiseño"></a>
 
-Al iniciar la aplicación aparecerá una página de Login debido a que hay dos tipos de usuario que usarán la aplicación.
-
-![Login](img/capturasPrototipado/login.PNG)
-
 El primer tipo de usuario es el gestor, es la única persona que hará uso de todas las funcionalidades de la aplicación, tras iniciar sesión entrará a su menú. En el menú encontrará botones con los procedimientos que puede realizar y al final un botón que le muestra una previsualización de los procedimientos.
 
 El botón "varada", "traslado en seco", "botadura" y "traslado en mojado" llevan a las ventanas donde se muestran los pasos de cada procedimiento mientras que el botón "ver procedimientos" permite como ya ha sido mencionado, previsualizar los procedimientos.
