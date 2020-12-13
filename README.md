@@ -109,7 +109,7 @@ El siguiente paso en la varada es "Cama de varada" aquí se encuentran dos check
 El siguiente paso es "Planificacion", es el tercer paso de la varada y el segundo del traslado en seco. La primera imagen corresponde con la apariencia de la pantalla cuando es una varada, como se puede ver tiene un desplegable que da varias opciones, un checkbox que recoge la fecha y hora en la que es pulsado, dos cuadros de texto para escribir la hora y dos para escribir los minutos y por último un cuadro de texto para escribir el número de remolcadores. En cuanto a la segunda imagen, que corresponde con el traslado en seco hay dos cuadros de texto normales, dos checkbox que recogen la fecha y hora actual cuando on pulsados y un cuadro de texto para la hora y otro para los minutos. El botón de abajo sirve para cambiar de fase en ambos casos.
 
 ![Planificacion Varada](img/capturasPrototipado/PlanificacionVarada.PNG)
-![Planificacion Traslado en seco](img/capturasPrototipado/PlanificacionTSecoPNG)
+![Planificacion Traslado en seco](img/capturasPrototipado/PlanificacionTSeco.PNG)
 
 La siguiente interfaz corresponde con la fase "Buque" donde podemos observar cuatro cuadros de texto, un desplegable y un checkbox que sirve para lo mismo que los anteriores. El botón de abajo sirve para avanzar al siguiente paso.
 
