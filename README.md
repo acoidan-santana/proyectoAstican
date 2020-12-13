@@ -132,9 +132,23 @@ La siguiente interfaz coincide con el cuarto paso del traslado en seco y con el 
 ![Remolque en seco varada](img/capturasPrototipado/RemolqueEnSecoVarada.PNG)
 ![Remolque en seco traslado en seco](img/capturasPrototipado/RemolqueEnSecoTSeco.PNG)
 
-Esta interfaz es la última de las interfaces para los pasos y coincide en todas las operaciones. Hay tres checkbox que recogen la fecha y hora actual al ser presionados, el mensaje que sale en medio de los campos a rellenar se debe a que aprovechando las posibilidades de Power Apps he usado un solo formulario para las cuatro operaciones por lo que hasta que no se defina una tabla para rellenar los datos, aparecerá ese mensaje.
+Esta interfaz es la última de las interfaces para los pasos y coincide en todas las operaciones. Hay tres checkbox que recogen la fecha y hora actual al ser presionados, el mensaje que sale en medio de los campos a rellenar se debe a que aprovechando las posibilidades de Power Apps he usado un solo formulario para las cuatro operaciones por lo que hasta que no se defina una tabla para rellenar los datos, aparecerá ese mensaje. Al darle al botón "finalizar" guardará los datos que corresponden y volverá a la pantalla de menú del gestor.
 
 ![Servicios Basicos](img/capturasPrototipado/ServiciosBasicos.PNG)
+
+Cuando se pulsa el botón de "ver operaciones" que hay en el menú del gestor, te llevará a esta pantalla, la pantalla "visualizador", que te permite ver las operaciones por orden de identificador, es un menú con scroll para ver todas las operaciones que salen con presentación de tarjetas. En el cuadro de texto se puede buscar por tipo de operación y por nombre de barco. Al pulsar sobre las flechitas ubicadas a la derecha de cada tarjeta se abrirá la ventana de detalles de esa operación y si se pincha sobre la flecha de arriba a la izquierda se vuelve a la ventana anterior.
+
+![Visualizador](img/capturasPrototipado/Visualizador.PNG)
+
+Hasta esta interfaz se navega al pulsar en las flechas que están a la derecha de las tarjetas. Como se puede ver es la misma interfaz que la de detalles de los usuarios de Astican pero con el icono del lápiz que lleva a la ventana de edición de la operación en cuestión. La información presentada dependerá del registro escogido y de su tipo de operación.
+
+![Detalles gestor varada](img/capturasPrototipado/DetallesGestorVarada.PNG)
+![Detalles gestor traslado en seco](img/capturasPrototipado/DetallesGestorTSeco.PNG)
+
+Esta es la ventana de edición de registros, también juega con la visibilidad ya que cada operación tiene datos distintos. Cuenta con scroll para editar todo lo necesario en la misma pantalla y al final de todo hay un botón que guaradará los cambios. En la imagen de edición de traslado en seco no hay datos mas allá del buque dado que no se han rellenado esos registros.
+
+![Editar varada](img/capturasPrototipado/EditarVarada.PNG)
+![Editar traslado en seco](img/capturasPrototipado/EditarTSeco.PNG)
 
 ### 6.2. Usabilidad:<a name="idUsabilidad"></a>
 
