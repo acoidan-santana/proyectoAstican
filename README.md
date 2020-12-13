@@ -5,6 +5,8 @@
 * [1. Introducción](#idIntroduccion)
 
 * [2. Diagramas](#idDiagramas)
+  * [2.1. Diagrama de entidad relacion](#idER)
+  * [2.2. Modelo relacional](#idMR)
 
 * [3. Requisitos de Usuario](#idReqUsu)
 
@@ -41,9 +43,10 @@ La aplicación también debe permitir que otros usuarios que están relacionados
 
 ## 2. Diagramas<a name="idDiagramas"></a>
 
-![Entidad Relación](img/asticanER.PNG)
+### 2.1. Diagrama de entidad relación:<a name="idER"></a>
+![Entidad Relación](img/AsticanERCompleto.PNG)
 
-Los atributos "inicioPasos", "finPasos" y "observacionesPasos" de la tabla "Operación" hacen referencia a todos los pasos, es decir, cada paso tiene su inicio, su fin y su observación dentro de la base de datos.
+### 2.1. Modelo relacional:<a name="idMR"></a>
 
 ## 3. Requisitos de usuario<a name="idReqUsu"></a>
 
