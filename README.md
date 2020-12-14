@@ -19,7 +19,10 @@
   * [6.2. Usabilidad](#idUsabilidad)
 
 * [7. Manuales](#idManuales)
-
+  * [7.1. Manual Usuario](#idManualUsuario)
+  * [7.2. Guia Referencia](#idGuiaRef)
+  * [7.3. Manual Instalacion](#idManualInstalacion)
+  
 * [8. Pila Tecnológica](#idPilaTecnologica)
   * [8.1. Microsoft Power Apps](#idPowerApps)
   * [8.2. Microsoft Excel](#idExcel)
@@ -161,6 +164,24 @@ La interfaz goza de simpleza y elegancia con una paleta de colores bastante pequ
 La aplicación ofrecerá al gestor de la operación un gran beneficio en términos de tiempo y esfuerzo dado que no tendrá que pasar los datos de papel a ordenador una vez acabe la operación y no recibirá llamadas durante la misma. El gestor puede acceder a todo el contenido ya que es el único encargado de la toma de datos y del control de la operación, es por eso que tiene la capacidad dentro de la aplicación de iniciar acciones y controlar tareas.
 
 ## 7. Manuales<a name="idManuales"></a>
+
+### 7.1. Manual de usuario:<a name="idManualUsuario"></a>
+* [7.1.1. Funciones Basicas](#idFbasicas)
+* [7.1.2. Solucion problemas](#idSproblemas)
+
+#### 7.1.1. Funciones Básicas:<a name="idFbasicas"></a>
+Si es un usuario de Astican con acceso a la aplicación solo podrá ver los detalles de la última operación, para salir de la aplicación pulse la flecha que hay en la esquina superior izquierda y para cambiar al modo oscuro dispone de un botón deslizable bajo el título de la pantalla para cambiarlo.
+
+Si es el gestor de la aplicación dispondrá de cinco botones principales, los cuatro primeros le permetirán realizar las operaciones fase por fase rellenando cada uno de los campos y una vez se llegue al paso final la aplicación volverá al menú principal. El quinto botón le llevará a una página que le permetirá ver las operaciones ya hechas y podrá buscar por nombre de barco y por tipo de operación, si quiere ver más detalles pinche en la flecha que aparece al lado derecho de cada operación y si tras ver los detalles desea modificar alguna pinche sobre el lápiz que aparece en la esquina superior derecha. Una vez en la pestaña de edición modifique los registros que desee y pulse el botón de abajo del todo para guardar cambios. Si quiere ver las fotos añadidas pulse sobre la cámara que aparece arriba a la derecha, también tiene la opción de añadir más, esta opción también está disponible en cada fase de cada operación en el momento de crearla. Para volver al menú principal pulse en las flechas que aparecen arriba a la izquiera en cada pantalla hasta regresar al menú principal. De vuelta en el menú principal verá un engranaje, este desplegará un pequeño menú que le permitirá cambiar el modo de visualizavión de la aplicación.
+
+#### 7.1.2. Solución de problemas:<a name="idSproblemas"></a>
+Si al intentar editar o crear alguna operación sale un mensaje de error, asegúrese de que el origen de datos (el Excel) no está abierto, si es así, ciérrelo e intente editar o crear de nuevo.
+
+### 7.2. Guía de referencia:<a name="idGuiaRef"></a>
+
+### 7.3. Manual de instalacion:<a name="idManualInstalacion"></a>
+
+Para instalar esta aplicación deberá importarla en su cuenta de Power Apps o que el creador de la aplicación se la comparta. En algunos casos hay problemas para compartir el Excel así que es posible que necesite una copia de la base de datos. Es muy importante que no modifique nada de ese archivo Excel, deberá entrar en el modo de edición de la aplicación y deberá poner como origen de datos ese archivo Excel que previamente debe subir a una cuenta de Microsoft OneDrive, es decir, creará una nueva conexión con esa cuenta de OneDrive y después seleccionará el archivo Excel, una vez haga esto le aparecerán las tablas, seleccionelas todas y añadalas a la aplicación, una vez hecho esto, debería funcionar correctamente.
 
 ## 8. Pila Tecnológica<a name="idPilaTecnologica"></a>
 
