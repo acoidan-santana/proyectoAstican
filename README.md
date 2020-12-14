@@ -20,8 +20,7 @@
 
 * [7. Manuales](#idManuales)
   * [7.1. Manual Usuario](#idManualUsuario)
-  * [7.2. Guia Referencia](#idGuiaRef)
-  * [7.3. Manual Instalacion](#idManualInstalacion)
+  * [7.2. Manual Instalacion](#idManualInstalacion)
   
 * [8. Pila Tecnológica](#idPilaTecnologica)
   * [8.1. Microsoft Power Apps](#idPowerApps)
@@ -177,9 +176,7 @@ Si es el gestor de la aplicación dispondrá de cinco botones principales, los c
 #### 7.1.2. Solución de problemas:<a name="idSproblemas"></a>
 Si al intentar editar o crear alguna operación sale un mensaje de error, asegúrese de que el origen de datos (el Excel) no está abierto, si es así, ciérrelo e intente editar o crear de nuevo.
 
-### 7.2. Guía de referencia:<a name="idGuiaRef"></a>
-
-### 7.3. Manual de instalacion:<a name="idManualInstalacion"></a>
+### 7.2. Manual de instalacion:<a name="idManualInstalacion"></a>
 
 Para instalar esta aplicación deberá importarla en su cuenta de Power Apps o que el creador de la aplicación se la comparta. En algunos casos hay problemas para compartir el Excel así que es posible que necesite una copia de la base de datos. Es muy importante que no modifique nada de ese archivo Excel, deberá entrar en el modo de edición de la aplicación y deberá poner como origen de datos ese archivo Excel que previamente debe subir a una cuenta de Microsoft OneDrive, es decir, creará una nueva conexión con esa cuenta de OneDrive y después seleccionará el archivo Excel, una vez haga esto le aparecerán las tablas, seleccionelas todas y añadalas a la aplicación, una vez hecho esto, debería funcionar correctamente.
 
