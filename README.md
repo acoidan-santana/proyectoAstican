@@ -87,7 +87,7 @@ Ambos usuarios tienen la posibilidad de activar o desactivar el modo oscuro seg�
 
 ### 6.1. Diseño Inicial:<a name="idDiseño"></a>
 
-Al entrar en la aplicación como usuario de Astican solo podrás ver los detalles de la última operación, al ser 4 operaciones diferentes, en la misma interfaz se juega con la visibilidad de la información para mostrar la adecuada, debido a la cantidad de datos que hay, se ha optado por hacer una ventana con scroll que muestre toda la información. Cabe destacar que esta interfaz es la misma que la de detalles que verá el gestor pero añadiendo un icono de un lápiz que le llevará a la ventana de edición como se verá más adelante. Hasta ahora la aplicación trabaja con 2 operaciones de las 4 por eso solo se muestran capturas de esas dos. La flecha superior izquierda sirve para salir en el caso de los usuarios de Astican y para volver atrás en el caso del gestor.
+Al entrar en la aplicación como usuario de Astican solo podrás ver los detalles de la última operación, al ser 4 operaciones diferentes, en la misma interfaz se juega con la visibilidad de la información para mostrar la adecuada, debido a la cantidad de datos que hay, se ha optado por hacer una ventana con scroll que muestre toda la información. Cabe destacar que esta interfaz es la misma que la de detalles que verá el gestor pero sin el icono del lápiz que llevará al gestor a la ventana de edición como se verá más adelante. Hasta ahora la aplicación trabaja con 2 operaciones de las 4 por eso solo se muestran capturas de esas dos. La flecha superior izquierda sirve para salir en el caso de los usuarios de Astican y para volver atrás en el caso del gestor. Se puede observar que debajo del título hay un botón deslizante, este permite al usuario de Astican cambiar el modo de visualización de la aplicación a modo oscuro. Más adelante se verá como luce este modo.
 
 ![Detalles Varada Usuario](img/capturasPrototipado/DetallesUsuarioVarada.PNG)
 ![Detalles Traslado en seco Usuario](img/capturasPrototipado/DetallesUsuarioTSeco.PNG)
@@ -96,14 +96,14 @@ En cuanto al gestor, es la única persona que hará uso de todas las funcionalid
 
 El botón "varada", "traslado en seco", "botadura" y "traslado en mojado" llevan a las ventanas donde se muestran los pasos de cada operación mientras que el botón "ver procedimientos" permite como ya ha sido mencionado, previsualizar las operaciones que ya han sido realizadas.
 
-El icono de engranaje sirve para abrir un menú desplegable que te permite cambiar el color de la aplicación al modo oscuro cuando le das al botón deslizante. Al volver a pinchar sobre el engranaje se cierra el desplegable
+El icono de engranaje sirve para abrir un menú desplegable que te permite cambiar el color de la aplicación al modo oscuro cuando le das al botón deslizante. Al volver a pinchar sobre el engranaje se cierra el desplegable.
 
 ![Menu Gestor](img/capturasPrototipado/MenuGestor.PNG)
 ![Menu Gestor desplegable](img/capturasPrototipado/MenuGestorDesplegable.PNG)
 ![Menu Gestor modo oscuro desplegable](img/capturasPrototipado/MenuGestorModoOscuroDesplegable.PNG)
 ![Menu Gestor modo oscuro](img/capturasPrototipado/MenuGestorModoOscuro.PNG)
 
-Cada operación tiene sus pasos aunque algunos son comunes entre ellos, como ya se mencionó por ahora se trabaja con la varada y el traslado en seco por lo que comnezaré mostrando los pasos de la varada y cuando coincida con alguna interfaz del traslado en seco, dicha interfaz será mostrada en sus dos versiones.
+Cada operación tiene sus pasos aunque algunos son comunes entre ellos. Como ya se mencionó, por ahora se trabaja con la varada y el traslado en seco por lo que comnezaré mostrando los pasos de la varada y cuando coincida con alguna interfaz del traslado en seco, dicha interfaz será mostrada en sus dos versiones.
 
 El primer paso es el de "Inicio", este es común en todas las operaciones aunque en la varada presenta alguna diferencia. Como se puede ver en la primera imagen, hay un cuadro para rellenar el nombre del barco y otro para el tipo mientras que la segunda te da la opción de escribir el nombre del barco y se mostrará automáticamente el tipo justo debajo. La primera imagen corresponde con el inicio de la varada y la segunda con la del traslado en seco. El botón de abajo te lleva al siguiente paso y la flecha de arriba a la izquierda para volver atrás.
 
@@ -114,7 +114,7 @@ El siguiente paso en la varada es "Cama de varada" aquí se encuentran dos check
 
 ![Cama Varada](img/capturasPrototipado/CamaVarada.PNG)
 
-El siguiente paso es "Planificacion", es el tercer paso de la varada y el segundo del traslado en seco. La primera imagen corresponde con la apariencia de la pantalla cuando es una varada, como se puede ver tiene un desplegable que da varias opciones, un checkbox que recoge la fecha y hora en la que es pulsado, dos cuadros de texto para escribir la hora y dos para escribir los minutos y por último un cuadro de texto para escribir el número de remolcadores. En cuanto a la segunda imagen, que corresponde con el traslado en seco hay dos cuadros de texto normales, dos checkbox que recogen la fecha y hora actual cuando on pulsados y un cuadro de texto para la hora y otro para los minutos. El botón de abajo sirve para cambiar de fase en ambos casos.
+El siguiente paso es "Planificacion", es el tercer paso de la varada y el segundo del traslado en seco. La primera imagen corresponde con la apariencia de la pantalla cuando es una varada, como se puede ver tiene un desplegable que da varias opciones, un checkbox que recoge la fecha y hora en la que es pulsado, dos cuadros de texto para escribir la hora y dos para escribir los minutos y por último un cuadro de texto para escribir el número de remolcadores. En cuanto a la segunda imagen, que corresponde con el traslado en seco hay dos cuadros de texto normales, dos checkbox que recogen la fecha y hora actual cuando son pulsados y un cuadro de texto para la hora y otro para los minutos. El botón de abajo sirve para cambiar de fase en ambos casos.
 
 ![Planificacion Varada](img/capturasPrototipado/PlanificacionVarada.PNG)
 ![Planificacion Traslado en seco](img/capturasPrototipado/PlanificacionTSeco.PNG)
@@ -140,11 +140,11 @@ La siguiente interfaz coincide con el cuarto paso del traslado en seco y con el 
 ![Remolque en seco varada](img/capturasPrototipado/RemolqueEnSecoVarada.PNG)
 ![Remolque en seco traslado en seco](img/capturasPrototipado/RemolqueEnSecoTSeco.PNG)
 
-Esta interfaz es la última de las interfaces para los pasos y coincide en todas las operaciones. Hay tres checkbox que recogen la fecha y hora actual al ser presionados, el mensaje que sale en medio de los campos a rellenar se debe a que aprovechando las posibilidades de Power Apps he usado un solo formulario para las cuatro operaciones por lo que hasta que no se defina una tabla para rellenar los datos, aparecerá ese mensaje. Al darle al botón "finalizar" guardará los datos que corresponden y volverá a la pantalla de menú del gestor.
+Esta interfaz es la última de las interfaces para los pasos o fases y coincide en todas las operaciones. Hay tres checkbox que recogen la fecha y hora actual al ser presionados, el mensaje que sale en medio de los campos a rellenar se debe a que aprovechando las posibilidades de Power Apps he usado un solo formulario para las cuatro operaciones por lo que hasta que no se defina una tabla para rellenar los datos, aparecerá ese mensaje. Al darle al botón "finalizar" guardará los datos que corresponden y volverá a la pantalla de menú del gestor.
 
 ![Servicios Basicos](img/capturasPrototipado/ServiciosBasicos.PNG)
 
-Cuando se pulsa el botón de "ver operaciones" que hay en el menú del gestor, te llevará a esta pantalla, la pantalla "visualizador", que te permite ver las operaciones por orden de identificador, es un menú con scroll para ver todas las operaciones que salen con presentación de tarjetas. En el cuadro de texto se puede buscar por tipo de operación y por nombre de barco. Al pulsar sobre las flechitas ubicadas a la derecha de cada tarjeta se abrirá la ventana de detalles de esa operación y si se pincha sobre la flecha de arriba a la izquierda se vuelve a la ventana anterior.
+Cuando se pulsa el botón de "ver operaciones" que hay en el menú del gestor, te llevará a esta pantalla, la pantalla "visualizador", que te permite ver las operaciones por orden de identificador, es un menú con scroll para ver todas las operaciones que salen con presentación de tarjetas. En el cuadro de texto se puede buscar por tipo de operación y por nombre de barco. Al pulsar sobre las flechas ubicadas a la derecha de cada tarjeta se abrirá la ventana de detalles de esa operación y si se pincha sobre la flecha de arriba a la izquierda se vuelve a la ventana anterior.
 
 ![Visualizador](img/capturasPrototipado/Visualizador.PNG)
 
@@ -153,10 +153,15 @@ Hasta esta interfaz se navega al pulsar en las flechas que están a la derecha d
 ![Detalles gestor varada](img/capturasPrototipado/DetallesGestorVarada.PNG)
 ![Detalles gestor traslado en seco](img/capturasPrototipado/DetallesGestorTSeco.PNG)
 
-Esta es la ventana de edición de registros, también juega con la visibilidad ya que cada operación tiene datos distintos. Cuenta con scroll para editar todo lo necesario en la misma pantalla y al final de todo hay un botón que guaradará los cambios. En la imagen de edición de traslado en seco no hay datos mas allá del buque dado que no se han rellenado esos registros.
+Esta es la ventana de edición de registros, también juega con la visibilidad ya que cada operación tiene datos distintos. Cuenta con scroll para editar todo lo necesario en la misma pantalla y al final del todo hay un botón que guaradará los cambios.
 
 ![Editar varada](img/capturasPrototipado/EditarVarada.PNG)
 ![Editar traslado en seco](img/capturasPrototipado/EditarTSeco.PNG)
+
+Como se puede ver, en la mayoría de interfaces aparece un icono de una cámara, al pulsar sobre él navegará hacia la interfaz dedicada a la adición de fotos, esta interfaz tiene dos versiones a pesar de ser la misma interfaz, a la primera se accede desde las interfaces de los pasos de cada operación y coincide con la primera imagen mostrada, a la segunda se accede desde la pantalla de edición y coincide con la segunda imagen. Como se puede ver ambas tienen un cuadro para insertar la imagen, al pulsar sobre el botón "añadir foto", esta se añadirá, en la segunda imagen hay un desplegable que sirve para indicar en que paso se quiere añadir dicha imagen, en la otra no hace falta ya que es automático debido a que se ingresa a la interfaz desde un paso concreto. Bajo el botón aparecen las imágenes en una tarjeta, junto con el paso en el que han sido sacadas y un icono de papelera, este sirve para borrar esa imagen. En la esquina superior derecha hay una flecha de actualización, esta actualizará la lista de imágenes al ser pulsada. Por último en la esquina superior izquierda se encuentra la flecha que sirve para volver a la página anterior.
+
+![Añadir foto fases](img/capturasPrototipado/AñadirFotoFases.PNG)
+![Añadir foto editar](img/capturasPrototipado/AñadirFotoEditar.PNG)
 
 ### 6.2. Usabilidad:<a name="idUsabilidad"></a>
 
@@ -182,7 +187,7 @@ Si al intentar editar o crear alguna operación sale un mensaje de error, asegú
 
 ### 7.2. Manual de instalacion:<a name="idManualInstalacion"></a>
 
-Para instalar esta aplicación deberá importarla en su cuenta de Power Apps o que el creador de la aplicación se la comparta. En algunos casos hay problemas para compartir el Excel así que es posible que necesite una copia de la base de datos. Es muy importante que no modifique nada de ese archivo Excel, deberá entrar en el modo de edición de la aplicación y deberá poner como origen de datos ese archivo Excel que previamente debe subir a una cuenta de Microsoft OneDrive, es decir, creará una nueva conexión con esa cuenta de OneDrive y después seleccionará el archivo Excel, una vez haga esto le aparecerán las tablas, seleccionelas todas y añadalas a la aplicación, una vez hecho esto, debería funcionar correctamente.
+Para instalar esta aplicación deberá importarla en su cuenta de Power Apps (en la web o en la aplicación de escritorio) o que el creador de la aplicación se la comparta. En algunos casos hay problemas para compartir el Excel así que es posible que necesite una copia de la base de datos. Es muy importante que no modifique nada de ese archivo Excel, deberá entrar en el modo de edición de la aplicación y deberá poner como origen de datos ese archivo Excel que previamente debe subir a una cuenta de Microsoft OneDrive, es decir, subirá el Excel a una cuenta de OneDrive y creará una nueva conexión con esa cuenta. Para crear la conexión vaya al apartado "datos" dentro del editor de la aplicación, seleccione el apartado "conectores" y elija la opción de OneDrive, agregue la conexión con la cuenta en la que tiene el Excel y elíjala, una vez hecho esto le aparecerá el Excel, selecciónelo y le aparecerán las tablas, selecciónelas todas y añádalas a la aplicación, una vez hecho esto, debería funcionar correctamente.
 
 ## 8. Pila Tecnológica<a name="idPilaTecnologica"></a>
 
