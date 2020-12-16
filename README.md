@@ -197,7 +197,7 @@ Como se puede ver, en la mayoría de interfaces aparece un icono de una cámara,
 
 
 
-* La interfaz goza de simpleza y elegancia con una paleta de colores bastante pequeña, los colores utilizados son el azul oscuro, blanco y algo de negro como se ve en imágenes anteriores.
+* La interfaz goza de elegancia con una paleta de colores bastante pequeña, los colores utilizados son el azul oscuro, blanco y algo de negro como se ve en imágenes anteriores.
 
 
 
@@ -225,6 +225,30 @@ Como se puede ver, en la mayoría de interfaces aparece un icono de una cámara,
 
 ![Menu Gestor](img/capturasPrototipado/MenuGestor.PNG)
 ![Detalles Varada Usuario](img/capturasPrototipado/DetallesUsuarioVarada.PNG)
+
+
+
+* Es eficiente: mide el esfuerzo para conseguir un objetivo.
+
+
+
+* Ofrece beneficios, ahorra tiempo al usuario y mejora su eficiencia.
+
+![Primer Movimiento](img/capturasPrototipado/PrimerMovimiento.PNG)
+![Planificacion Traslado en seco](img/capturasPrototipado/PlanificacionTSeco.PNG)
+
+
+
+* La interfaz posee una simplicidad en el diseño, no existe sobrecarga.
+
+![Visualizador](img/capturasPrototipado/Visualizador.PNG)
+
+
+
+* El usuario debe ser capaz de interactuar con la aplicación.
+
+![Menu Gestor](img/capturasPrototipado/MenuGestor.PNG)
+![Menu Gestor desplegable](img/capturasPrototipado/MenuGestorDesplegable.PNG)
 
 
 
