@@ -183,7 +183,17 @@ Como se puede ver, en la mayoría de interfaces aparece un icono de una cámara,
 
 ### 6.2. Usabilidad:<a name="idUsabilidad"></a>
 
-La aplicación cumple con varias de las características más importantes de usabilidad. Es una aplicación útil ya que abarca todos los aspectos requeridos por la empresa, permite a los usuarios de Astican visualizar el estado de la operación actual así como permite al gestor recoger y editar los datos además de visualizar el proceso actual y anteriores. Al tener la capacidad de editar los datos recogidos se puede afirmar que la aplicación prevee errores, en caso de que algún dato estuviese mal, la aplicación antes de guardar los datos en la base de datos hace una revisión a ver si todos son correctos dando la oportunidad de editarlos en caso de no serlo.
+La aplicación es útil, cumpliendo todos los requisitos de la empresa, tomar datos sobre las operaciones, visualizarlos y editarlos.
+
+![Menu Gestor](img/capturasPrototipado/MenuGestor.PNG)
+![Detalles gestor varada](img/capturasPrototipado/DetallesGestorVarada.PNG)
+![Editar varada](img/capturasPrototipado/EditarVarada.PNG)
+
+Prevee errores, permitiendo la edición de los datos añadidos y mostrando mensajes de error cuando algún campo esta vacío.
+
+![Mensaje Error](img/capturasPrototipado/MensajeError.PNG)
+
+Al tener la capacidad de editar los datos recogidos se puede afirmar que la aplicación prevee errores, en caso de que algún dato estuviese mal, la aplicación antes de guardar los datos en la base de datos hace una revisión a ver si todos son correctos dando la oportunidad de editarlos en caso de no serlo.
 
 La interfaz goza de simpleza y elegancia con una paleta de colores bastante pequeña, los colores utilizados son el azul oscuro, gris, blanco y algo de negro. Se ha intentado hacer una interaz lo más fácil de aprender posible utilizando iconos y textos bastante explicativos como son el lápiz para editar o la flecha para volver atrás y los botones con un texto que te dice la función que realizan.
 
