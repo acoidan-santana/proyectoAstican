@@ -62,11 +62,29 @@ Se puede ver también como las relaciones muchos a muchos se han transformado en
 
 ## 3. Requisitos de usuario<a name="idReqUsu"></a>
 
-Esta aplicación será utilizada por dos tipos de usuario, el gestor y los usuarios autorizados de Astican.
+* La aplicación será ejecutada en móvil en principio aunque cabe la posibilidad de que acabe siendo ejecutada en tablets.
 
-El gestor podrá hacer uso de todas las opciones de la aplicación, esto implica la escritura y edición de datos además de poder consultar el estado de la operación actual y ver los datos de operaciones anteriores buscando por tipo de operación, barcos etc. Como se mencionó previamente, la acción principal que puede cumplir el gestor es la de escritura de datos ya que en cada operación debe recoger una serie de datos que luego se guardarán en una base de datos, una vez termine de escribir los datos tiene la opción de editarlos en caso de que se equivoque, le falte o le sobre algún dato. Al terminar un paso u operación se actualizará el visualizador donde el propio gestor podrá ver qué tal va la operación y en caso de querer cambiar algo podrá hacerlo, adicionalmente podrá buscar operaciones anteriores. En resumen, el gestor puede escribir, modificar y ver los detalles en esta aplicación.
+* Esta aplicación será utilizada por dos tipos de usuario, el gestor y los usuarios autorizados de Astican.
 
-Los usuarios autorizados de Astican solo podrán ver el estado de la operación actual y sus detalles. Los detalles son todos los datos de las operaciones que el gestor ha ido rellenando y guardando en la base de datos.
+   * El gestor accederá al menú con todas las opciones, podrá agregar, editar, visualizar y eliminar datos.
+
+   * Los usuarios autorizados de Astican solo podrán ver el estado de la operación actual y sus detalles.
+   
+* Los usuarios para poder entrar en la aplicación deben tener el permiso en su cuenta de Office365.
+
+* La aplicación tendrá dos interfaces de inicio diferentes.
+
+  * La interfaz del gestor será un menú con 5 botones 4 de ellos para las operaciones y uno para ver un resumen de todas las operaciones.
+    
+    * Las operaciones tendrán diferentes interfaces para rellenar datos.
+    
+    * El resumen te permite seleccionar cualquier operación y ver y editar sus datos, esta interfaz tendrá un scroll para ver todas las operaciones y permitirá la búsqueda por nombre de barco y operación.
+    
+  * La interfaz de los usuarios autorizados de Astican consistirá en la pantalla de detalles de la última operación.
+  
+* En caso de que hubiese algún problema con el origen de datos, se mostraría un mensaje de error en pantalla.
+
+* Ningún dato puede quedar en blanco, en caso de que no se rellene algo, se mostrará un mensaje indicativo y la aplicación no avanzará hasta que no sea rellenado.
 
 ## 4. Casos de Uso<a name="idCasosDeUso"></a>
 
