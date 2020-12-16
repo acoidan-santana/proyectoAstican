@@ -183,7 +183,7 @@ Como se puede ver, en la mayoría de interfaces aparece un icono de una cámara,
 
 ### 6.2. Usabilidad:<a name="idUsabilidad"></a>
 
-La aplicación es útil, cumpliendo todos los requisitos de la empresa, tomar datos sobre las operaciones, visualizarlos y editarlos.
+* La aplicación es útil, cumpliendo todos los requisitos de la empresa, tomar datos sobre las operaciones, visualizarlos y editarlos.
 
 ![Menu Gestor](img/capturasPrototipado/MenuGestor.PNG)
 ![Detalles gestor varada](img/capturasPrototipado/DetallesGestorVarada.PNG)
@@ -191,23 +191,42 @@ La aplicación es útil, cumpliendo todos los requisitos de la empresa, tomar da
 
 
 
-Prevee errores, permitiendo la edición de los datos añadidos y mostrando mensajes de error cuando algún campo esta vacío.
+* Prevee errores, permitiendo la edición de los datos añadidos y mostrando mensajes de error cuando algún campo esta vacío.
 
 ![Mensaje Error](img/capturasPrototipado/MensajeError.PNG)
 
 
 
-La interfaz goza de simpleza y elegancia con una paleta de colores bastante pequeña, los colores utilizados son el azul oscuro, blanco y algo de negro como se ve en imágenes anteriores.
+* La interfaz goza de simpleza y elegancia con una paleta de colores bastante pequeña, los colores utilizados son el azul oscuro, blanco y algo de negro como se ve en imágenes anteriores.
 
 
 
-Es fácil de aprender y de entender, con iconos y textos explicativos.
+* Es fácil de aprender y de entender, con iconos y textos explicativos.
 
 ![Iconos1](img/capturasPrototipado/Iconos1.PNG)
 ![Iconos2](img/capturasPrototipado/Iconos2.PNG)
 
 
-La aplicación ofrecerá al gestor de la operación un gran beneficio en términos de tiempo y esfuerzo dado que no tendrá que pasar los datos de papel a ordenador una vez acabe la operación y no recibirá llamadas durante la misma. El gestor puede acceder a todo el contenido ya que es el único encargado de la toma de datos y del control de la operación, es por eso que tiene la capacidad dentro de la aplicación de iniciar acciones y controlar tareas.
+
+* El usuario debe ser capaz de iniciar acciones y controlar tareas.
+
+![Añadir foto con foto](img/capturasPrototipado/AñadirFotoConFoto.PNG)
+
+
+
+* El usuario es capaz de personalizar la interfaz.
+
+![Menu Gestor desplegable](img/capturasPrototipado/MenuGestorDesplegable.PNG)
+![Menu Gestor modo oscuro desplegable](img/capturasPrototipado/MenuGestorModoOscuroDesplegable.PNG)
+
+
+
+* El usuario es capaz de acceder a todo el contenido que tiene permitido utilizar.
+
+![Menu Gestor](img/capturasPrototipado/MenuGestor.PNG)
+![Detalles Varada Usuario](img/capturasPrototipado/DetallesUsuarioVarada.PNG)
+
+
 
 ## 7. Manuales<a name="idManuales"></a>
 
